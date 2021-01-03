@@ -5,10 +5,12 @@ This is a small project to help analyse sleep patterns. It keeps a digital sleep
 
 ## _**WIP**_ Use
 
-You can add *sleepJ* to your commandline environment by sourcing it's `.sh` script in your `.bashrc`:
+You can call up sleepJ by calling its main script inside this repository.
 ```
 source path/to/sleepJ.sh
 ```
+
+You can create an alias `sleepJ` for the above line to make things easier in the next commands.
 
 You can add an entry by calling it a little like git commands:
 ```
