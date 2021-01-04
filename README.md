@@ -19,16 +19,33 @@ $ sleepJ commit
 
 You can ammend the last entry with:
 ```
-$ sleepJ commit --ammend
+$ sleepJ commit ammend
 ```
 
 When committing a new entry it opens your editor of choice and allows you to complete a *JSON* object with the necessary entries.
 
 The editor defaults to *vim* if not set by you or if what you have set is not recognised by bash as a valid editor.
 
-You can set your editor using the `sleepJEditor` variable in your `.bashrc`, or by calling:
+## Config
+
+You can configure sleepJ by calling it and passing arguments about what you want to edit. For example, if you want to edit your default commit entry use:
+```
+sleepJ config commit
+```
+
+You can access the sleepJ config file with:
+```
+sleepJ config config
+```
+
+You can set your editor using the `sleepJEditor` variable inside the config file, or from the commandline:
 ```
 $ sleepJ config editor=emacs
+```
+
+For a comprehensive list of configuration options type:
+```
+sleepJ config help
 ```
 
 ## _**WIP**_ Entries
