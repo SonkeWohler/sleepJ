@@ -1,0 +1,6 @@
+# temporary files
+*.swp
+*~
+
+# local slj config files
+*.config*.slj
