@@ -51,7 +51,7 @@ sleepJ config help
 ## _**WIP**_ Entries
 
 
-## _**WIP**__ Under the Hood
+## _**WIP**_ Under the Hood
 
 The basic functionality of *sleepJ* simply makes a copy of your `newEntry.slj` and calls your editor on that file. After closing it, if it has been edited, it ammends its contents to your journal and deletes any files lying around from this operation.
 
