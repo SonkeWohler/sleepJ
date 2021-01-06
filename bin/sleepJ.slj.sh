@@ -16,9 +16,16 @@ if [ "$1" = "" ]; then
   exit 0
 fi
 
+if [ "$1" = "add" ]; then
+  shift
+  source add.slj.sh
+  echo "end of add WIP"
+  exit 0
+fi
+
 if [ "$1" = "commit" ]; then
   shift
-  source commit.slj.sh $@
+  source commit.slj.sh $*
   echo "end of commit WIP"
   exit 0
 fi

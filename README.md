@@ -12,14 +12,14 @@ source path/to/sleepJ.sh
 
 You can create an alias `sleepJ` for the above line to make things easier in the next commands.
 
-You can add an entry by calling it a little like git commands:
+You can add to today's records by calling:
 ```
-$ sleepJ commit
+$ sleepJ add
 ```
 
-You can ammend the last entry with:
+When you are ready to submit your record for the day use:
 ```
-$ sleepJ commit ammend
+sleepJ commit
 ```
 
 When committing a new entry it opens your editor of choice and allows you to complete a *JSON* object with the necessary entries.
