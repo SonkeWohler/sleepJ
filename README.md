@@ -26,7 +26,7 @@ When committing a new entry it opens your editor of choice and allows you to com
 
 The editor defaults to *vim* if not set by you or if what you have set is not recognised by bash as a valid editor.
 
-## Config
+## _**WIP**_ Config
 
 You can configure sleepJ by calling it and passing arguments about what you want to edit. For example, if you want to edit your default commit entry use:
 ```
