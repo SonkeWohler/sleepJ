@@ -4,5 +4,5 @@
 
 origin=$PWD
 cd bin
-./sleepJ.slj.sh
+./sleepJ.slj.sh $@
 cd ${origin}
