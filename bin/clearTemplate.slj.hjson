@@ -1,0 +1,29 @@
+{
+
+  date: $date
+
+  temperatures: {
+  
+  }
+
+  sleep: {
+    {
+      time: 
+    }
+  }
+
+  wake: {
+    {
+      time: 
+      quality:
+    }
+  }
+
+  interruptions: {
+    
+  }
+
+  mainNotes: ""
+
+  sideNotes: ""
+}

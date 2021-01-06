@@ -1,0 +1,70 @@
+{
+  // should be replaced by sleepJ
+  date: $date
+
+  /* timeofDay: temperature e.g.
+  14: 36.5
+  or
+  14,31: 36.5
+  note the comma (,) instead of colon (:)
+  */ 
+  temperatures: {
+  
+  }
+
+  /* times you went to sleep
+  e.g. 
+  {
+    // when sleep most linkely occurred, can be rounded to the hour
+    time: 01,56
+    melatonin: true
+    // how long you lay awake before falling asleep in mins
+    delay: 
+    // time you spent in the dark before in mins
+    dark: 0
+    // how you felt about your sleep when falling asleep, 1-5 score
+    quality: 2
+    // emotions, stress, unusual occurances
+    notes: big plans tomorrow
+  }
+  */
+  sleep: {
+    {
+      time: 
+    }
+  }
+
+  /* times you woke up and a note about the quality of sleep
+  e.g.
+  {
+    time: 12
+    // score 1-5
+    quality: 3
+  }
+  */
+  wake: {
+    {
+      time: 
+      quality:
+    }
+  }
+
+  /* times you interrupted sleep and how severe the interruption was
+  e.g.
+  {
+    time: 10
+    // score 1-5
+    quality: 1
+    note: "went to the bathroom"
+  }
+  */
+  interruptions: {
+    
+  }
+
+  // common and/or important notes
+  mainNotes: ""
+
+  // less common/important notes
+  sideNotes: ""
+}
