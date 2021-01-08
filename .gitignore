@@ -1,6 +1,15 @@
 # temporary files
 *.swp
+*.swo
+*.swn
+*.swm
 *~
 
 # local slj config files
 *.config*.slj
+
+
+# --- data files
+# today's commmit file
+today.slj.hjson
+commits/
