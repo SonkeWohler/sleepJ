@@ -3,7 +3,10 @@
 # this script sets up any environment necessary for sleepJ and processes arguments to sleepJ
 
 # --- environment
+# should already be located inside sleepJ/bin directory
 err() { source error.slj.sh $* ;}
+todayFileName="today.slj.hjson"
+editor=vim
 
 # --- help message
 # WIP
