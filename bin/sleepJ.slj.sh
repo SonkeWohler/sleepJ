@@ -5,8 +5,9 @@
 # --- environment
 # should already be located inside sleepJ/bin directory
 err() { source error.slj.sh $* ;}
-todayFileName="today.slj.hjson"
-editor=vim
+source ../config.slj
+##todayFileName="today.slj.hjson"
+##editor=vim
 
 # --- help message
 # WIP

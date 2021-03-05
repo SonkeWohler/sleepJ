@@ -10,7 +10,7 @@
   14: 36.5
   or
   14,31: 36.5
-  note the comma (,) instead of colon (:)
+  note the comma (,) instead of colon (:) in the time
   */ 
   temperatures: {
   
@@ -24,7 +24,7 @@
     melatonin: true
     // how long you lay awake before falling asleep in mins
     delay: 
-    // time you spent in the dark before in mins
+    // time you spent in the dark before in mins, does not have to be very exact
     dark: 0
     // how you felt about your sleep when falling asleep, 1-5 score
     quality: 2
@@ -44,6 +44,16 @@
     time: 12
     // score 1-5
     quality: 3
+    // how long it took to wake up since you started trying, in mins
+    delay:
+    // were alarms involved?
+    alarms: true
+    // how hard was it to wake up, 1-5 score
+    difficulty: 3
+    // if you've had coffee within a few hours of waking up
+    coffee: false
+    // if you had bright light after waking up for at least 1h
+    light therapy: true
   }
   */
   wake: {
